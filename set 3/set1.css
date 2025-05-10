@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+#container{
+    background-color: rgb(245, 243, 242);
+    width: 100%;
+    height: 100vh;
+   /* padding: 20px;*/
+    overflow: hidden;
+    position: relative;
+
+}
+  .logo{
+    width: 90px;
+    margin-right: 70px;
+    justify-content: right;
+   
+    
+  }
+  
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:  10px 0;
+    
+}nav ul li{
+    display: inline-block;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-radius:  25px ;
+    text-transform: uppercase;
+    text-shadow: 3px;
+   
+}
+#box a{
+    text-decoration: none;
+    text-transform: capitalize;
+   
+    font-size: larger;
+    bottom: 0;
+    right: 10%;
+}
+
+
+
+#login{
+    color: black;
+}
+#login:hover{
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(17, 17, 17) ;
+    background-color: aqua;
+
+}
+#download{
+   
+    padding: 7px 15px;
+    background-color: rgb(206, 61, 85);
+    border-radius:  30px 2px 25px 30px;
+    color: white;
+    margin-left: 10px;
+}
+#download:hover{
+       
+    padding: 7px 15px;
+    background-color: rgb(252, 245, 246);
+    border-radius:  30px 2px 25px 30px;
+    color: rgb(206, 61, 85);
+    margin-left: 10px;
+    border: 2px solid rgb(206, 61, 85) ;
+}
+.content{
+    margin-top: 60px;
+    max-width: 600px;
+    margin-left: 29px;
+   
+}.content h1{
+    color: rgb(17, 19, 19);
+    text-transform: lowercase;
+    font-size: 70px;
+    
+}.content h1 p{
+    font-size: 10px;
+    margin: 10px 0 30px;
+   
+    text-decoration: none;
+    color: white;
+    background-color: rgb(189, 39, 64);
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 25px;
+   
+}.top{ text-decoration: none;
+    color: white;
+    background-color:  rgb(189, 39, 64);
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 25px;
+   
+
+}
+.top:hover{ text-decoration: none;
+    color: rgb(189, 39, 64);
+    background-color: white;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 2px solid  rgb(189, 39, 64);
+
+}.img{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 550px;
+    filter: drop-shadow(10px 10px 10px black);
+ 
+}
+
+
+
+
+
+ 
+
