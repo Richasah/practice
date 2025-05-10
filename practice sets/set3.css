@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(7, 6, 7);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+} #logo{
+   width: 40px;
+}
+    
+
+nav{    display: flex;
+ 
+    justify-content:space-between;
+    align-items :center;}
+ 
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 4px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    border: 2px solid  transparent;
+    padding: 6px;
+    background: linear-gradient(to right ,red, orange);
+    border: 25px;
+    color: black;
+}
+.menu a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: larger;
+    margin-right: 80px;
+    text-transform: capitalize;
+   
+   
+    border: 2px solid transparent;
+    filter: drop-shadow( 3px aqua);
+    
+    
+}.sign{
+   background: linear-gradient(60deg,red,blue ,purple );
+   padding: 9px;
+   border-radius: 25px;
+   filter: drop-shadow( 3px 3px 5px orange);
+
+}
+.menu a:hover{
+   border: 2px solid white;
+   cursor: pointer;
+   background: linear-gradient(60deg,rgb(153, 57, 132) ,rgb(38, 88, 49),rgb(66, 71, 21)
+   );
+   padding: 8px;
+   border-radius: 30px 0px 30px 30px;
+  
+}.content{
+    width: 80%;
+    
+    
+} #box1{  margin: 70px;
+    position: relative;
+    width:600px ;
+    text-align: center;
+    float: left;
+    filter: drop-shadow(20px 10px 20px orange);
+    
+}#box1:hover{
+    filter: drop-shadow(30px 20px 30px rgb(115, 193, 245));
+ 
+}
+
+h1{ margin-top: 100px;
+    color: white;
+    margin: 4px;
+    text-transform: capitalize;
+    line-height: 70px;
+}h1:hover{
+    color: aqua;
+}
+
+p{    color: rgb(167, 164, 164);
+    margin-top: 20px;
+    text-transform: lowercase;
+    font-size: smaller;
+     font-weight: 100;
+     opacity: 1;
+
+}img{
+    width: 50%;
+    right: 10%;
+    bottom: 0;
+    position: absolute;
+    height: 400px;
+    top: 20%;
+    filter:  drop-shadow(30px 20px 30px  orange);
+
+
+
+}img:hover{
+    width: 55%;
+    height: 500px;
+    filter:  drop-shadow(30px 20px 30px  rgb(48, 190, 190));
+   
+}
+
+
+
+    
+
+
+
+ 
+  
