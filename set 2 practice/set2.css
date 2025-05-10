@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(248, 237, 237);
+    overflow: hidden;
+    position: absolute;padding: 20px;
+}
+nav ul{
+    display: inline-flex;
+    margin: 50px;
+} nav ul li{
+  
+    margin: 0 20px;
+    cursor: pointer;
+    color: blue;
+    list-style-type: none;
+
+}.logo{
+    width: 30px;
+    
+}#sign{
+    right: 80px;
+    top: 40px;
+    position: absolute;
+    text-decoration: none;
+}.box{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   height: 70%;
+   top: 25%;
+   left: 130px;
+   position: absolute;
+  
+}
+    
+
+
+
+.box1
+{width: 50%;
+float: left;
+}.boc2{
+    width: 100%;
+
+    float: right;
+
+  
+}
+.box1 h1{
+    width: 640px;
+    margin: 20px;
+    position: ;
+}
+ #img{
+ width: 330px;
+ right: 5%;
+ height: 330px;
+ bottom: 30px;
+
+ position: absolute;
+ filter: drop-shadow(40px 40px 40px black);
+
+
+
+
+   
+ }
+
+
+ .box1 h1 p{
+    color: red;
+    width:650px ;
+ }
+ .menu ul{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+   
+ }.menu ul li{
+    display: inline-flex;
+    margin-left: 30px;
+    margin-bottom: 10px;
+ }.munu2{
+    float: right;
+     right: 0;
+     position: absolute;
+     bottom: 0;
+     margin-bottom: 40px;
+ }
